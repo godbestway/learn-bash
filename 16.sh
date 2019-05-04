@@ -1,4 +1,6 @@
 #!/bin/bash
+#centos6 >500 is normal user
+#centos7 >1000 is normal user
 v=`cat /etc/redhat-release |awk -F 'release ' '{print $2}'|cut -d '.' -f1`
 user_judge()
 {
